@@ -1,0 +1,11 @@
+Delete a specific row of a MySQL Database based off of particular cell in a Google Sheet.
+Skip to end of banner
+Go to start of bannerSkip to end of metadata
+
+This is an example of using an App Script that deletes a specific row of a MySQL Database based off of particular cell in a Google Sheet.
+Step-by-step guide
+ 
+Set a button in Google Sheets to call the following function
+The Delete statement is Deleting all the rows that contain data based off of 1 column which happen to be the first three Columns in this example.
+Also Note the “0” that is in “ss.getSheets()[0]”
+This “0” refers to the sheet that your grabbing the fields off of.
